@@ -2,12 +2,29 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Clicker Marvel</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <div class="content">
+      <section class="menu">
+        <div class="container">
+          <h1>Heroes</h1>
+          <ul class = "heroList"></ul>
+        </div>
+      </section>
+      <section class="fight">
+        <ul class = "globalMoney"></ul>
+        <div class="showEnnemi"></div>
+        <div class="life"></div>
+        <ul class='heroImg'></ul>
+      </section>
+    </div>
+
+    <script>window.$ = window.jQuery = require('./assets/js/jquery.js');</script>
+    <script src="assets/js/env.js"></script>
+    <script src="assets/js/engine.js"></script>
+    <script src="assets/js/game.js"></script>
   </body>
 </html>
