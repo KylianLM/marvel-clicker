@@ -1,4 +1,21 @@
-# marvel-clicker
+Marvel Clicker
+===================
 
-**Projet JS fait pendant une nuit charette**
+
+Project in **[Hetic](http://hetic.net)** overnight.
+
+----------
+
+
+How to install
+-------------
+
+After retrieving the project archive , do the following commands
+
+
+> - npm install
+> - npm start
+
+
+
 
